@@ -1,0 +1,35 @@
+.container {
+  height: 0;
+  width: 0;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-12.5%);
+  z-index: 9999;
+}
+
+.notification {
+  width: 320px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ff8686bb;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #e00000;
+}
+
+.notification__text {
+  background-color: #ffffff00;
+}
+
+.notification__btn {
+  margin-top: 5px;
+  font-size: 12px;
+  border: none;
+}
+
+.notification__btn:hover {
+  color: #7c0000;
+}

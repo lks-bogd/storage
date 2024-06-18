@@ -1,0 +1,39 @@
+.file {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: grid;
+  grid-template-columns: 1fr 3fr repeat(3, 1fr);
+  align-items: center;
+  border-bottom: 1px solid #adadad;
+}
+
+.file__id {
+  grid-column-start: 1;
+}
+
+.file__name {
+  grid-column-start: 2;
+}
+
+.file__size {
+  grid-column-start: 3;
+  text-align: center;
+}
+
+.file__download-btn {
+  grid-column-start: 4;
+  border: none;
+}
+
+.file__download-btn:hover {
+  color: rgb(1, 141, 206);
+}
+
+.file__delete-btn {
+  grid-column-start: 5;
+  border: none;
+}
+
+.file__delete-btn:hover {
+  color: rgb(1, 141, 206);
+}

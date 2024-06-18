@@ -1,0 +1,49 @@
+.navbar {
+  padding: 16px 0;
+  border: 1px solid #adadad;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  align-items: center;
+}
+
+.navbar__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar__list {
+  display: flex;
+  background-color: inherit;
+}
+
+.navbar__item {
+  background-color: inherit;
+}
+
+.navbar__label {
+  cursor: pointer;
+  margin-right: 40px;
+  background-color: inherit;
+}
+
+.navbar__label:hover {
+  color: rgb(1, 141, 206);
+}
+
+.navbar__input {
+  display: none;
+}
+
+.navbar__logout {
+  border: none;
+}
+
+.navbar__logout:hover {
+  color: rgb(1, 141, 206);
+}
